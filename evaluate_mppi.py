@@ -148,3 +148,7 @@ if __name__ == "__main__":
         use_gaussian_cost=True,
         difficulty="hard",
     )
+
+    # evaluate_seeds(num_seeds=100, max_steps=args.max_steps, save_dir="results_easy_vanilla", use_gaussian_cost=False, difficulty='easy')
+    # evaluate_seeds(num_seeds=100, max_steps=args.max_steps, save_dir="results_medium_vanilla", use_gaussian_cost=False, difficulty='medium')
+    # evaluate_seeds(num_seeds=100, max_steps=args.max_steps, save_dir="results_hard_vanilla", use_gaussian_cost=False, difficulty='hard')
